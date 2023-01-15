@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# if log directory does not exist, create it.
+if [ ! -d /var/log/dns_traffic ]
+then 
+    mkdir /var/log/dns_traffic 
+fi
+
+# if log file does not exist, create it.
+if [ ! -e /var/log/dns_traffic/dns_traffic.log ]
+then 
+    touch /var/log/dns_traffic/dns_traffic.log  
+    chmod 0600 /var/log/dns_traffic/dns_traffic.log 
+fi
+
+# run tcpdump
+setsid tcpdump -i any udp port 53 2>&1 >> /var/log/dns_traffic/dns_traffic.log

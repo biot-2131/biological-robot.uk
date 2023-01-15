@@ -1,0 +1,10 @@
+<table>
+    <caption align="bottom">
+	{% if include.link %}
+		<a href="{{ include.link }}">{{ include.description }}</a>
+	{% else %}
+		{{ include.description }}
+	{% endif %}
+</caption>
+<tr><td><img src="{{ include.url }}" alt="{{ include.description }}"/></td></tr>
+</table>
