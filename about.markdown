@@ -4,6 +4,11 @@ title: About
 permalink: /about/
 ---
 
+<br>
+
+Welcome to my commonplace book. I have found that when I start learning about something, I generally explore the subject more broadly and remember more details if I write it down, and this blog is my attempt to do just that. 
+
+Hopefully, you will find something that is of interest to you. 
 
 
 <br>
