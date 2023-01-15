@@ -8,8 +8,22 @@ permalink: /about/
 
 Welcome to my commonplace book. I have found that when I start learning about something, I generally explore the subject more broadly and remember more details if I write it down, and this blog is my attempt to do just that. 
 
-Hopefully, you will find something that is of interest to you. 
+Hopefully, you will find something that interests you. 
 
+<br>
+
+<div class="social-links">
+    <a href="mailto: biot@biological-robot.uk">
+        <img src="/assets/images/email-Icon.png" alt="email icon" style="width:18px;height:18px;"> 
+        biot@biological-robot.uk
+    </a>
+    <br>
+    <a href="/biot@biological-robot.uk_public.asc">
+        <img src="/assets/images/padlock-icon.png" alt="padlock icon" style="width:18px;height:18px;"> 
+        86EC1397EA8055325CACADE80AF4DF4E99109461
+    </a>
+    {%- include social.html -%}
+</div>
 
 <br>
 
