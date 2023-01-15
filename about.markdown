@@ -27,8 +27,23 @@ Hopefully, you will find something that interests you.
 
 <br>
 
+ <table width="300" cellspacing="0" cellpadding="0">
+  <tr style="vertical-align:top">
+    <td>
+        <img src="/assets/images/biot_profile_picture_ellipse.png" alt="biot icon" style="width:200px;height:200px;">     
+    </td>
+    <td>
+        <img src="/assets/images/rendezvous_with_rama-arthur_c_clarke-art_work_cropped.jpg" alt="biot icon" style="width:500px;height:200px;">     
+    </td>
+  </tr>
+</table> 
+Rendezvous with Rama is a science fiction novel by British writer Arthur C. Clarke first published in 1973. It is set in the 2130s, and the story involves a 50-by-20-kilometre cylindrical alien starship that enters the Solar System. 
+
+When the crew arrives at there base, they see a variety of odd creatures inspecting their camp. When one is found damaged and apparently lifeless, the team's doctor/biologist Surgeon-Commander Laura Ernst inspects it, and discovers it to be a hybrid biological entity and robot eventually termed a <b>"biot"</b>. <a href="https://en.wikipedia.org/wiki/Rendezvous_with_Rama" target="_blank">wikipedia.org: Rendezvous with Rama</a>
+
+<br>
+
 # [AttackIQ Academy](https://www.academy.attackiq.com/) 
-#### Learning Path: [Intermediate MITRE ATT&CK](https://www.academy.attackiq.com/learning-path/intermediate-mitre-attck)
  <table width="300" cellspacing="0" cellpadding="0">
   <tr style="vertical-align:top">
     <td width="60" style="text-align: center;">
@@ -103,4 +118,3 @@ Hopefully, you will find something that interests you.
 </table> 
 
 
----
