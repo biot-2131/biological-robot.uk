@@ -1,0 +1,66 @@
+---
+layout: post
+title: "Post Template"
+strapline: "Strapline"
+date: 2017-01-01 
+published: false
+lastmod: 2017-06-01
+changefreq: yearly
+priority: 0.5
+categories: post
+excerpt_separator: <!--excerpt-->
+---
+
+HEADERS
+
+# This is an <h1> tag
+## This is an <h2> tag 
+### This is an <h3> tag 
+#### This is an <h4> tag 
+##### This is an <h5> tag 
+###### This is an <h6> tag
+
+LISTS
+
+Unordered
+* Item 1
+* Item 2
+	* Item 2a 
+	* Item 2b
+* Item 3
+
+<!--excerpt-->
+
+Ordered
+1. Item 1 
+2. Item 2 
+	* Item 2a 
+	* Item 2b
+3. Item 3
+
+
+BLOCKQUOTES
+
+As Grace Hopper said:
+> I’ve always been more interested 
+> in the future than in the past.
+
+
+IMAGES
+
+![GitHub Logo](/images/logo.png) Format: ![Alt Text](url)
+
+
+LINKS
+
+http://github.com - automatic! [GitHub](http://github.com)
+
+
+TABLES
+
+First Header | Second Header
+------------ | -------------
+Content cell 1 | Content cell 2
+Content column 1 | Content column 2
+
+

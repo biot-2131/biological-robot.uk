@@ -1,0 +1,9 @@
+[Unit]
+Description=tcpdump DNS traffic
+
+[Service]
+Type=simple
+ExecStart=/sbin/dns_traffic.bsh
+
+[Install]
+WantedBy=multi-user.target

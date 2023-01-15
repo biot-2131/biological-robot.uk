@@ -1,0 +1,288 @@
+---
+layout: post
+title: ".com Doppelgängers"
+strapline: "The prevalence and control of .com look-a-like domain names"
+date: 2021-05-28 
+published: true
+lastmod: 2021-05-28
+changefreq: monthly
+priority: 0.5
+categories: research dns
+excerpt_separator: <!--excerpt-->
+---
+
+[Doppelgänger domain names](https://en.wikipedia.org/wiki/Doppelg%C3%A4nger) <sup>[1](#1),[2](#2)</sup> are a subcategory in the larger issue of [Typosquatting](https://en.wikipedia.org/wiki/Typosquatting) <sup>[3](#3)</sup> in the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) (DNS) <sup>[4](#4)</sup>. A doppelgänger domain is typically correctly spelt but with some manipulation of the dots between host and domain name, for example, www.google.com is different from wwwgoogle.com.
+
+<a name="excerpt">
+
+The reasons for registering and running services on doppelgänger domains vary widely with either mischievous or malicious intent. It could be for a lark; to make a political statement; to embarrass or harass, or as part of a broader cyber attack strategy. In all cases, the intent is to re-direct traffic (the web, email etc.) away from the legitimate domain and to the doppelgänger domain. 
+
+<!--excerpt-->
+
+Regardless of the motivations and intentions of any given doppelgänger, it should be accepted that the Domain Name System allows users to register domain names and that a one character difference between two given domain names makes them both unique and valid within the DNS system. They can then be owned and controlled by two different entities. This technical differentiation does not always sit well with the owner of the original domain, if a doppelgänger domain is being used in “bad faith” or with “malicious intent”. So the [Internet Corporation for Assigned Names and Numbers](https://www.icann.org/) (ICANN), created a [Uniform Domain-Name Dispute-Resolution Policy](https://www.icann.org/resources/pages/help/dndr/udrp-en) (UDRP) <sup>[5](#5)</sup> process for the resolution of disputes regarding the registration of internet domain names. Having this formal and legally binding process is a good thing. However wouldn’t it be better to avoid getting into a dispute to start with? Wouldn’t it be better to own and control "all" possible look-a-like domains in the first place?
+
+But registering "all" possible doppelgängers and setting up re-directs to the "real" domain is an impractical and costly strategy: There is currently more than 1,000 top-level domains (TLD) and country code top-level domain (ccTLD), also, in the cases of typosquatting; the larger the number of characters in your domain name the greater the possible number of doppelgänger domains. Which means that many thousands of domains would need to be registered.
+
+A more realistic and cost-effective strategy would be to only register the most likely and most common doppelgänger domains. Here we investigate the prevalence and control of .com doppelgänger domain names and use the knowledge gained to build a recommended list of .com doppelgänger domains that should be pre-emptively registered.
+
+### Methodology
+
+This investigation uses the top 5000 .com domains from the [Alexa.com](http://www.alexa.com/topsites) <sup>[6](#6)</sup> daily index of the top one million sites [[download link]](http://s3.amazonaws.com/alexa-static/top-1m.csv.zip). All of these domains support some form of on-line presence, store, webmail, search engine, social network or marketing website. Millions of users visit their websites and contact them via email every day.
+
+The definition of a Doppelgänger domain was extended beyond just the manipulation of the dot and included some techniques borrowed from typosquatting by prepending www and www- and TLD/ccTLD squatting by replacing the .com TLD with appropriate ccTLDs' while keeping the primary assumption that the domain names spelling is identical. This provides a larger, more representative sample of the styles of doppelgänger domain names used and generates more extensive and varied results.
+
+This strategy produced, ten manipulations of the .com TLD with the ccTLD's .cm, .co, .om and prepends two variations of the optional World Wide Web www protocol identifier, producing 30 candidate doppelgängers for each legitimate domain.
+
+<table>
+<colgroup>
+<col width="5%"/>
+<col width="20%"/>
+<col width="5%"/>
+<col width="20%"/>
+<col width="5%"/>
+<col width="20%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>[domain] .com (real)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>[domain] c.co</td>
+<td>12</td>
+<td>www [domain] c.co</td>
+<td>22</td>
+<td>www- [domain] c.co</td>
+</tr>
+<tr>
+<td>3</td>
+<td>[domain] c.om</td>
+<td>13</td>
+<td>www [domain] c.om</td>
+<td>23</td>
+<td>www- [domain] c.om</td>
+</tr>
+<tr>
+<td>4</td>
+<td>[domain] .co </td>
+<td>14</td>
+<td>www [domain] .co</td>
+<td>24</td>
+<td>www- [domain] .co</td>
+</tr>
+<tr>
+<td>5</td>
+<td>[domain] .co.om</td>
+<td>15</td>
+<td>www [domain] .co.om</td>
+<td>25</td>
+<td>www- [domain] .co.om</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>[domain] .com.co</td>
+<td>16</td>
+<td>www [domain] .com.co</td>
+<td>26</td>
+<td>www- [domain] .com.co</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>[domain] .om</td>
+<td>17</td>
+<td>www [domain] .om</td>
+<td>27</td>
+<td>www- [domain] .om</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>[domain] .om.co</td>
+<td>18</td>
+<td>www [domain] .om.co</td>
+<td>28</td>
+<td>www- [domain] .om.co</td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>[domain] .om.com</td>
+<td>19</td>
+<td>www [domain] .om.com</td>
+<td>29</td>
+<td>www- [domain] .om.com</td>
+</tr>
+
+<tr>
+<td>10</td>
+<td>[domain] .com.om</td>
+<td>20</td>
+<td>www [domain] .com.om</td>
+<td>30</td>
+<td>www- [domain] .com.om</td>
+</tr>
+
+<tr>
+<td>11</td>
+<td>[domain] .cm</td>
+<td>21</td>
+<td>www [domain] .cm</td>
+<td>31</td>
+<td>www- [domain] .cm</td>
+</tr>
+
+</tbody>
+</table>
+
+&nbsp;
+
+<table>
+<colgroup>
+<col width="10%"/>
+<col width="15%"/>
+<col width="75%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td markdown="span">.cm</td>
+<td markdown="span">Cameroon <sup>[7](#7)</sup></td>
+<td markdown="span">A local entity/company in Cameroon is required to register a domain name.</td>
+</tr>
+<tr>
+<td markdown="span">.co</td>
+<td markdown="span">Colombia <sup>[8](#8)</sup></td>
+<td markdown="span">Marketed as a global domain, anyone can register.</td>
+</tr>
+<tr>
+<td markdown="span">.om</td>
+<td markdown="span">Oman <sup>[9](#9)</sup></td>
+<td markdown="span">Registrant must have company or trademark registered in Oman</td>
+</tr>
+</tbody>
+</table>
+
+&nbsp;
+
+For this investigation, we used [dig](https://en.wikipedia.org/wiki/Dig_(command)) (domain information groper) <sup>[10](#10),[11](#11)</sup> as the primary investigatory tool, and used the value of the domains DNS [Start of Authority](http://searchnetworking.techtarget.com/definition/start-of-authority-record) (SOA) <sup>[12](#12)</sup> record as a determiner using the following process and logic: 
+
+* A "dig @8.8.4.4 [domain].com SOA" query was sent to the legitimate domain to determine the domains DNS SOA server.
+* For each candidate doppelgänger, A "dig @8.8.4.4 * [domain] * SOA" query was sent to determine whether or not the candidate domain is "resolvable" and therefore exists
+* SOA records were compared with that of the "legitimate" domain's SOA record. If they matched; it inferred that the domain owner has control over that doppelgänger and if they did not; it inferred that the domain owner does not have control over the doppelgänger and that it could therefore be used for nefarious activities. 
+
+For example: 
+
+$ dig @8.8.4.4 google.com SOA
+
+{% include image.html url="/assets/images/com_doppelgangers_dig_@8.8.4.4_google.com_SOA.png"%}
+
+$ dig @8.8.4.4 googlec.co SOA
+
+{% include image.html url="/assets/images/com_doppelgangers_dig_@8.8.4.4_googlec.co_SOA.png"%}
+
+In these two examples, the legitimate domain google.com's declares its SOA as ns1.google.com v.s. the googlec.co domain declares its SOA as elinore.ns.cloudflare.com. So we determine that the doppelgänger googlec.co exists and that google.com is not in control of it. 
+
+Caveat: The assertion of “control” based on the comparison of SOA records does not hold true in all cases! Discerning the "true" owners for each domain would be a long and arduous task and is therefore outside the scope of this investigation. We are making a generalising assumption of control, based on the fact that “most” companies consolidate their DNS services to one set of servers, under one domain and/or one DNS provider. Any that fall outside of this assumption will be outliers and represent a small but extremely hard to define variance in the overall control statistics.
+
+
+### Findings
+
+#### The prevalence of .com doppelgängers:
+
+
+dig SOA queries where made for each of the 5000 legitimate .com domains and for each of the 30 candidate doppelgänger domains. Returning a total 9938 SOA records, 5000 for the legitimate domains and 4938 potential doppelgänger domains.
+
+{% include image.html url="/assets/images/com_doppelgangers_potential.png" description="potential doppelgängers"%}
+
+Potential doppelgängers within the .co ccTLD are by far the most prevalent, with a combined total of 4707 (95.32%) of the 4938  found. Whereas the significance of .om 164 (3.32%) and .cm 66 (1.34%) combined pales in comparison. The disparity between them is likely to be due to the registry requirements of the registrars, with a registered company required for the .cm and .om domains versus no registry requirements at all for a .co domain.
+
+{% include image.html url="/assets/images/com_doppelgangers_cctld.png" description=".co versus .cm & .om"%}
+
+No doppelgängers were found for 1631 of the 5000 domains tested, however, 3369 do have one or more doppelgängers. The distribution of the count of doppelgängers per domain tails off sharply once one doppelgänger exists. 
+
+{% include image.html url="/assets/images/com_doppelgangers_counts.png" description="doppelgänger counts per domain"%}
+
+&nbsp;
+
+#### The control of .com doppelgängers:
+
+Comparison of the legitimate vs. doppelgänger SOA records, reveals that only very small percentages of doppelgänger domains share the same SOA as their legitimate domain. Which implies that the vast majority of doppelgängers are not controlled by the legitimate domain owners.
+
+{% include image.html url="/assets/images/com_doppelgangers_control_table.png" description="control counts"%}
+
+Nine of the top ten SOA domains that promulgate and control the DNS entries for the doppelgänger domains are [domain parking](https://en.wikipedia.org/wiki/Domain_parking) <sup>[13](#13)</sup> and domains for sale businesses. This implies that the doppelgängers have been registered, but are not necessarily in active use.
+
+{% include image.html url="/assets/images/com_doppelgangers_soa_domains.png" description="soa domains"%}
+
+MarkMonitor is a company that provides digital brand protection services, including DNS services, which implies that the legitimate domain owners have engaged with MarkMonitor to register and redirect the doppelgänger domains on their behalf.
+
+### Conclusion
+
+Based on a list of the top 5000 .com domains we found that 3369 (67.38%) of them have one or more doppelgänger domain(s) associated with them. We also found that, doppelgängers are prevelant within the .co ccTLD where we found 4707 (95.32%) of all doppelgängers found.
+
+If you are a .com domain owner, or plan to be; a rational and cost effective strategy for registering and redirecting your doppelgänger domains would be to own at least the top five doppelgänger variants within the .co ccTLD, which would cover off 90% of the most likely potential doppelgängers.
+
+1. [your domain] .co
+2. [your domain] .com.co
+3. www [your domain] .co
+4. [your domain] c.co
+5. www [your domain] com.co
+
+
+&nbsp; &nbsp;
+
+
+### Notes
+1. <a name="1"></a>A doppelgänger or doppelga(e)nger is a look-alike or double of a living person ... 
+"[Doppelgänger](https://en.wikipedia.org/wiki/Doppelg%C3%A4nger)" [Wikimedia Foundation, Inc.](https://www.wikimediafoundation.org/), 30 May 2017. Web 6 Jun 2017 
+2. <a name="2"></a>A doppelgänger domain is a domain spelled identical to a legitimate fully qualified domain name (FQDN) but missing the dot between host/subdomain and domain, to be used for malicious purposes ... 
+"[Doppelganger domain](https://en.wikipedia.org/wiki/Doppelganger_domain)" [Wikimedia Foundation, Inc.](https://www.wikimediafoundation.org/), 6 March 2017. Web 6 Jun 2017
+3. <a name="3"></a>Typosquatting, also called URL hijacking, a sting site, or a fake URL ... 
+"[Typosquatting](https://en.wikipedia.org/wiki/Typosquatting)" [Wikimedia Foundation, Inc.](https://www.wikimediafoundation.org/), 23 May 2017. Web 6 Jun 2017 
+4. <a name="4"></a>The Domain Name System (DNS) is a hierarchical decentralized naming system for computers, services, or other resources connected to the Internet or a private network ... 
+"[Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)" [Wikimedia Foundation, Inc.](https://www.wikimediafoundation.org/), 5 June 2017. Web 6 Jun 2017
+5. <a name="5"></a>Disputes alleged to arise from abusive registrations of domain names (for example, cybersquatting) may be addressed by expedited administrative proceedings that the holder of trademark rights initiates by filing a complaint with an approved dispute-resolution service provider ...
+"[Uniform Domain-Name Dispute-Resolution Policy](https://www.icann.org/resources/pages/help/dndr/udrp-en)" 
+[Internet Corporation For Assigned Names and Numbers](https://www.icann.org/), 2017. Web 6 Jun 2017
+6. <a name="6"></a>Alexa is a global pioneer in the world of analytical insight ...
+[Alexa Internet, Inc.](http://www.alexa.com/), 2017 . Web 6 Jun 2017
+7. <a name="7"></a>Delegation Record for .CM "[Cameroon](https://www.iana.org/domains/root/db/cm.html)"
+[Internet Corporation For Assigned Names and Numbers](https://www.icann.org/), 12 July 2012. Web 6 Jun 2017
+8. <a name="8"></a>Delegation Record for .CO "[Colombia](https://www.iana.org/domains/root/db/co.html)"
+[Internet Corporation For Assigned Names and Numbers](https://www.icann.org/), 09 March 2017. Web 6 Jun 2017
+9. <a name="9"></a>Delegation Record for .OM "[Oman](https://www.iana.org/domains/root/db/om.html)"
+[Internet Corporation For Assigned Names and Numbers](https://www.icann.org/), 29 December 2015. Web 6 Jun 2017
+10. <a name="10"></a>dig (domain information groper) is a network administration command-line tool for querying Domain Name System (DNS) servers ... 
+"[dig (command)](https://en.wikipedia.org/wiki/Dig_(command))" [Wikimedia Foundation, Inc.](https://www.wikimediafoundation.org/), 7 April 2017. Web 6 Jun 2017 
+11. <a name="11"></a>Heinlein, Paul. "[DiG HOWTO - How to use dig to query DNS name servers.](https://www.madboa.com/geek/dig/)" [madboa.com](https://www.madboa.com/), 11 May 2006. Web 6 Jun 2017
+12. <a name="12"></a>A start of authority (SOA) record is information stored in a domain name system (DNS) zone about that zone and about other DNS records ...
+Rouse, Margaret. "[Start of Authority record](http://searchnetworking.techtarget.com/definition/start-of-authority-record)" [SearchNetworking](http://searchnetworking.techtarget.com/), April 2007. Web 6 Jun 2017
+13. <a name="13"></a>Domain parking refers to the registration of an internet domain name without that domain being associated with any services such as e-mail or a website ...
+"[Domain parking](https://en.wikipedia.org/wiki/Domain_parking)" [Wikimedia Foundation, Inc.](https://www.wikimediafoundation.org/), 23 May 2017. Web 6 Jun 2017
+
+
+
+

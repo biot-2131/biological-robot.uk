@@ -1,0 +1,32 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+.heading
+{
+    line-height: 100%;
+}
+
+.strapline {
+    line-height: 50%;	
+}
+
+.date {
+    font-size: 14px;
+    color: #828282;
+}
+
+caption {
+    display: table-caption;
+    text-align: center;
+    font-size: 12px;
+    color: #828282;	
+	padding:0px 0px 15px 0px;
+}
+
+.site-title {
+    font-size: 42px;
+}
+
