@@ -24,11 +24,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my commonplace book. I have found that when I start learning about 
   something, I generally explore the subject more broadly and remember more 
   details if I write it down, and this blog is my attempt to do just that. 
-  Hopefully, you will find something that is of interest to you. 
+  Hopefully, you will find something that interests you. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.biological-robot.uk/" # the base hostname & protocol for your site, e.g. http://example.com
+
 twitter_username: hybrid_entity
 github_username:  biot-2131
+linkedin_username:  biological-robot-25672b261
+mastodon_username:  biot@infosec.exchange
 
 # Build settings
 theme: minima
