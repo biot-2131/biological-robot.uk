@@ -49,19 +49,25 @@ When the crew arrives at there base, they see a variety of odd creatures inspect
 <table width="330" cellspacing="0" cellpadding="0">
   <tr style="vertical-align:top">
     <td width="60" style="text-align: center;">
-        <a href="https://www.credly.com/badges/7f887f39-b9ab-4179-8983-4672dc0314f6" target="_blank">
-        <img src="https://images.credly.com/size/110x110/images/5a16ec87-6eb4-4c6e-8843-60b6e8583735/image.png" alt="Badge 1" style="width:110px;height:110px;">
-        </a>
+        <div class="badge">
+            <a href="https://www.credly.com/badges/7f887f39-b9ab-4179-8983-4672dc0314f6" target="_blank">
+            <img src="/assets/images/badges/lfd121_developing_secure_software.png">
+            </a>
+        </div>
     </td>
     <td width="60" style="text-align: center;">
-        <a href="https://www.credly.com/badges/4153aa05-5945-4f5b-80cb-e2389ec2c118" target="_blank">
-        <img src="https://images.credly.com/size/110x110/images/e807f203-a235-4c69-b9ee-f31bf015af6f/image.png" alt="Badge 2" style="width:110px;height:110px;">
-        </a>
+        <div class="badge">
+            <a href="https://www.credly.com/badges/4153aa05-5945-4f5b-80cb-e2389ec2c118" target="_blank">
+            <img src="/assets/images/badges/information_technology_fundamentals.png">
+            </a>
+        </div>
     </td>
     <td width="60" style="text-align: center;">
-        <a href="https://www.credly.com/badges/786b2cf4-df63-4db1-8435-c2bed47d72da" target="_blank">
-        <img src="https://images.credly.com/size/110x110/images/50b96632-6cbb-40b7-ac0e-b83f49ff7f94/image.png" alt="Badge 3" style="width:110px;height:110px;">
-        </a>
+        <div class="badge">
+            <a href="https://www.credly.com/badges/786b2cf4-df63-4db1-8435-c2bed47d72da" target="_blank">
+            <img src="/assets/images/badges/cybersecurity_fundamentals.png">
+            </a>
+        </div>
     </td>
   </tr>
   <tr style="vertical-align:top">
@@ -86,19 +92,25 @@ When the crew arrives at there base, they see a variety of odd creatures inspect
 <table width="300" cellspacing="0" cellpadding="0">
   <tr style="vertical-align:top">
     <td width="60" style="text-align: center;">
-        <a href="https://www.credly.com/badges/33363a59-f830-498e-a40f-716e5bea3130" target="_blank">
-        <img src="https://images.credly.com/size/110x110/images/8e228e0c-167c-499b-8d8b-39f23d8d1789/Beyond_Atomic_Testing_with_Attack_Flows.png" alt="Badge 1" style="width:110px;height:110px;">
-        </a>
+        <div class="badge">
+            <a href="https://www.credly.com/badges/33363a59-f830-498e-a40f-716e5bea3130" target="_blank">
+            <img src="/assets/images/badges/beyond_atomic_testing_with_attack_flows.png">
+            </a>
+        </div>
     </td>
     <td width="60" style="text-align: center;">
-        <a href="https://www.credly.com/badges/113d5eb3-5e94-4be3-9a3f-4180cbb4e1b3" target="_blank">
-        <img src="https://images.credly.com/size/110x110/images/3ab93b21-1bff-4b9b-97a1-31adf0839db7/Intermediate_BAS_Badge.png" alt="Badge 2" style="width:110px;height:110px;">
-        </a>
+        <div class="badge">
+            <a href="https://www.credly.com/badges/113d5eb3-5e94-4be3-9a3f-4180cbb4e1b3" target="_blank">
+            <img src="/assets/images/badges/intermediate_breach_and_attack_simulation.png">
+            </a>
+        </div>
     </td>
     <td width="60" style="text-align: center;">
-        <a href="https://www.credly.com/badges/900dcf62-a594-4dc0-917b-d476bdda2e6a" target="_blank">
-        <img src="https://images.credly.com/size/110x110/images/763243f1-2f82-4183-9a1f-3765d04a0a37/Intermediate_MITRE_ATT_CK.png" alt="Badge 3" style="width:110px;height:110px;">
-        </a>
+        <div class="badge">
+            <a href="https://www.credly.com/badges/900dcf62-a594-4dc0-917b-d476bdda2e6a" target="_blank">
+            <img src="/assets/images/badges/intermediate_mitre_attack.png">
+            </a>
+        </div>
     </td>
   </tr>
   <tr style="vertical-align:top">
@@ -123,19 +135,25 @@ When the crew arrives at there base, they see a variety of odd creatures inspect
 <table width="300" cellspacing="0" cellpadding="0">
   <tr style="vertical-align:top">
     <td width="60" style="text-align: center;">
-        <a href="https://www.credly.com/badges/ab68fc2d-cfa3-45ec-ae00-d0ce6612706d" target="_blank">
-        <img src="https://images.credly.com/size/110x110/images/9a43c986-8bd5-4d23-8e46-37baf370710a/NIST_Badge.png" alt="Badge 1" style="width:110px;height:110px;">
-        </a>
+        <div class="badge">
+            <a href="https://www.credly.com/badges/ab68fc2d-cfa3-45ec-ae00-d0ce6612706d" target="_blank">
+            <img src="/assets/images/badges/uniting_threat_and_risk_management_with_nist_800-53_and_mitre_attack.png">
+            </a>
+        </div>
     </td>
     <td width="60" style="text-align: center;">
-        <a href="https://www.credly.com/badges/fb13aeae-f125-4298-8e2f-c8ee7d576f19" target="_blank">
-        <img src="https://images.credly.com/size/110x110/images/ae41f1b0-c9c4-40bc-b625-4b693a7c60c3/menuPass_Emulation_Plan_Execution.png" alt="Badge 2" style="width:110px;height:110px;">
-        </a>
+        <div class="badge">
+            <a href="https://www.credly.com/badges/fb13aeae-f125-4298-8e2f-c8ee7d576f19" target="_blank">
+            <img src="/assets/images/badges/menupass_emulation_plan_execution.png">
+            </a>
+        </div>
     </td>
     <td width="60" style="text-align: center;">
-        <a href="https://www.credly.com/badges/5964869d-b8cf-4bc9-aae3-bd382d30b616" target="_blank">
-        <img src="https://images.credly.com/size/110x110/images/a58c2256-25de-48c7-a5d5-fd7fc4bf8566/Intro_to_FIN6_Badge.png" alt="Badge 3" style="width:110px;height:110px;">
-        </a>
+        <div class="badge">
+            <a href="https://www.credly.com/badges/5964869d-b8cf-4bc9-aae3-bd382d30b616" target="_blank">
+            <img src="/assets/images/badges/introduction_to_fin6_emulation_plans.png">
+            </a>
+        </div>
     </td>
   </tr>
   <tr style="vertical-align:top">
@@ -160,19 +178,25 @@ When the crew arrives at there base, they see a variety of odd creatures inspect
 <table width="300" cellspacing="0" cellpadding="0">
   <tr style="vertical-align:top">
     <td width="60" style="text-align: center;">
-        <a href="https://www.credly.com/badges/b25b6ff0-eb2e-43a1-9ffa-fb9ffcc459fb" target="_blank">
-        <img src="https://images.credly.com/size/110x110/images/de20214a-9510-4822-8505-29d4c9dbb592/image.png" alt="Badge 1" style="width:110px;height:110px;">
-        </a>
+        <div class="badge">
+            <a href="https://www.credly.com/badges/b25b6ff0-eb2e-43a1-9ffa-fb9ffcc459fb" target="_blank">
+            <img src="/assets/images/badges/top_attack_techniques.png">
+            </a>
+        </div>
     </td>
     <td width="60" style="text-align: center;">
-        <a href="https://www.credly.com/badges/2512971e-5de6-4976-86ef-f392b8b86116" target="_blank">
-        <img src="https://images.credly.com/size/110x110/images/0518a655-5bfa-4882-8107-29711d31a837/Extending_ATT_CK_with_ATT_CK_Workbench.png" alt="Badge 2" style="width:110px;height:110px;">
-        </a>
+        <div class="badge">
+            <a href="https://www.credly.com/badges/2512971e-5de6-4976-86ef-f392b8b86116" target="_blank">
+            <img src="/assets/images/badges/extending_attack_with_attack_workbench.png">
+            </a>
+        </div>
     </td>
     <td width="60" style="text-align: center;">
-        <a href="https://www.credly.com/badges/933195b8-92d7-41be-b0a7-f8a567588e02" target="_blank">
-        <img src="https://images.credly.com/size/110x110/images/80cb5a3f-6316-4a8d-94f4-ecad8a0bc9eb/Application_of_ATT_CK_Navigator_Badge__1_.png" alt="Badge 3" style="width:110px;height:110px;">
-        </a>
+        <div class="badge">
+            <a href="https://www.credly.com/badges/933195b8-92d7-41be-b0a7-f8a567588e02" target="_blank">
+            <img src="/assets/images/badges/application_of_attack_navigator.png">
+            </a>
+        </div>
     </td>
   </tr>
   <tr style="vertical-align:top">
@@ -197,19 +221,25 @@ When the crew arrives at there base, they see a variety of odd creatures inspect
 <table width="300" cellspacing="0" cellpadding="0">
   <tr style="vertical-align:top">
     <td width="60" style="text-align: center;">
-        <a href="https://www.credly.com/badges/659dac80-737e-4d94-9d98-6084c777a8f0" target="_blank">
-        <img src="https://images.credly.com/size/110x110/images/af2c22ad-233c-481c-bab9-e7cbc1596e71/Foundations_of_BAS_Badge.png" alt="Badge 1" style="width:110px;height:110px;">
-        </a>
+        <div class="badge">
+            <a href="https://www.credly.com/badges/659dac80-737e-4d94-9d98-6084c777a8f0" target="_blank">
+            <img src="/assets/images/badges/foundations_of_breach_attack_simulation.png">
+            </a>
+        </div>
     </td>
     <td width="60" style="text-align: center;">
-        <a href="https://www.credly.com/badges/fa2e7918-7b12-4370-bda3-7d52b49987eb" target="_blank">
-        <img src="https://images.credly.com/size/110x110/images/ae9d6f85-418e-45d1-b0fc-4f44fc6708f3/Foundations_of_Purple_Teaming_Badge.png" alt="Badge 2" style="width:110px;height:110px;">
-        </a>
+        <div class="badge">
+            <a href="https://www.credly.com/badges/fa2e7918-7b12-4370-bda3-7d52b49987eb" target="_blank">
+            <img src="/assets/images/badges/foundations_of_purple_teaming.png">
+            </a>
+        </div>
     </td>
     <td width="60" style="text-align: center;">
-        <a href="https://www.credly.com/badges/f394966b-58a9-4e90-b126-8bdb96ba0e2e" target="_blank">
-        <img src="https://images.credly.com/size/110x110/images/466bf45d-c48d-46c3-a613-fd950d1dd9f9/Foundations_of_MITRE_ATT_CK_Badge.png" alt="Badge 3" style="width:110px;height:110px;">
-        </a>
+        <div class="badge">
+            <a href="https://www.credly.com/badges/f394966b-58a9-4e90-b126-8bdb96ba0e2e" target="_blank">
+            <img src="/assets/images/badges/foundations_of_operationalizing_mitre_attack.png">
+            </a>
+        </div>
     </td>
   </tr>
   <tr style="vertical-align:top">
@@ -232,7 +262,5 @@ When the crew arrives at there base, they see a variety of odd creatures inspect
 </table> 
 
 <br><br>
-
-
 <br><br>
 
