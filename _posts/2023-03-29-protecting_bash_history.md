@@ -33,7 +33,7 @@ We will provide examples of how adversaries can exploit this technique and also 
 
 ## Bash history environment variables
 
-#### HISTFILE environment variable
+#### 1. HISTFILE environment variable
 
 The HISTFILE environment variable is used to specify the path and file name for the command history file. The valid settings for the HISTFILE variable include:
 
@@ -43,7 +43,7 @@ The HISTFILE environment variable is used to specify the path and file name for 
 
 Note: that if the HISTFILE variable is not set, the default location for the command history file is "~/.bash_history".
 
-#### HISTCONTROL environment variable
+#### 2. HISTCONTROL environment variable
 
 The HISTCONTROL variable is used to control what is saved to the history file and what is not. It is used by the history command and eventually by the shell to decide which commands should be saved to the history file when a user logs out. By setting this variable, users can control the types of commands that are saved and can also prevent specific commands from being saved to the history file. This is useful for preventing sensitive information such as passwords from being saved to the history file.
 
@@ -53,7 +53,7 @@ The HISTCONTROL variable is used to control what is saved to the history file an
 - erasedups: This setting tells the shell to remove duplicates from the history list.
 - erasespaces: This setting causes the shell to remove commands that begin with spaces from the history list.
 
-#### HISTFILESIZE environment variable
+#### 3. HISTFILESIZE environment variable
 
 The HISTFILESIZE variable determines the maximum size of the history file for the current shell session. The following are the valid settings for the HISTFILESIZE variable:
 
@@ -61,7 +61,7 @@ The HISTFILESIZE variable determines the maximum size of the history file for th
 - "unlimited": Specifies that there is no limit to the size of the history file. This can be risky as it can potentially fill up the disk space if left unchecked.
 - "0": Specifies that no commands should be saved to the history file. This effectively disables command history logging for the current shell session.
 
-#### HISTSIZE environment variable
+#### 4. HISTSIZE environment variable
 
 HISTSIZE is an environment variable that determines the maximum number of commands that can be saved in the history list. When a user logs out, the history commands are saved to a history file (usually ~/.bash_history), and when the user logs in again, the previous history is reloaded from this file.
 
@@ -69,7 +69,7 @@ The default value for HISTSIZE is usually 500, meaning that the shell keeps trac
 
 It's important to note that HISTSIZE only determines the maximum number of commands that can be saved in the history list. If the number of commands exceeds this limit, the oldest commands will be dropped to make room for the new ones. Therefore, if a user wants to keep a longer history, they should increase the value of HISTSIZE.
 
-#### HISTIGNORE environment variable
+#### 5. HISTIGNORE environment variable
 
 The HISTIGNORE environment variable is used to specify patterns that should be ignored by the bash history function. The variable contains a list of colon-separated patterns, and any command that matches one of these patterns will not be added to the history list. This can be useful for excluding frequently typed or sensitive commands from the history.
 
@@ -164,7 +164,7 @@ unset HISTIGNORE
 
 ## Detection & logging
 
-#### HISTTIMEFORMAT variable
+### HISTTIMEFORMAT variable
 The HISTTIMEFORMAT variable is an environment variable in Bash that controls the format of timestamps for command history. By default, Bash does not include timestamps for command history, but if HISTTIMEFORMAT is set, it will use that format to include a timestamp for each command in the history file.
 
 The format of the timestamp is a string that can include special codes that represent various parts of the date and time, such as %Y for the year, %m for the month, %d for the day, %H for the hour, %M for the minute, and %S for the second. For example, setting HISTTIMEFORMAT to "%F %T " would add a timestamp in the format "YYYY-MM-DD HH:MM:SS" to each command in the history file.
@@ -183,10 +183,10 @@ history
 ```
 <br>
 
-#### Auditd logging 
+### Auditd logging 
 To detect adversaries from tampering with command history logging, system administrators can implement certain auditd rules on Linux systems. Auditd is a powerful auditing tool that monitors and logs system activity, including user commands.
 
-##### 1. Export rule
+#### 1. Export rule
 To detect the execution of the export command, use the following auditd rule:
 ``` bash
 auditctl -a always,exit -F arch=b64 -S execve -F exe=/usr/bin/export -k setenv
@@ -196,7 +196,7 @@ This rule has the following short comings:
 - It doesn't record which environment variable it was used with 
 - Users can by pass it by not using the export command i.e. HISTIGNORE='*'
 
-##### 2. bash_history.sh rule
+#### 2. bash_history.sh rule
 If you plan to implement the prevention method below. Monitor for changes to the /etc/profile.d/bash_history.sh, with the following auditd rule:
 ``` bash
 auditctl -w /etc/profile.d/bash_history.sh -p wa -k T1562.003-bash-history
@@ -206,7 +206,7 @@ auditctl -w /etc/profile.d/bash_history.sh -p wa -k T1562.003-bash-history
 
 ## Prevention 
 
-#### bash_history.sh
+### bash_history.sh
 The /etc/profile.d directory is a standard directory on Unix-like systems that contains shell scripts to be executed by the system-wide bash shell during login. The purpose of these scripts is to provide system-wide environment variables and settings for all users.
 
 Create a shell script file named /etc/profile.d/bash_history.sh with the following:
@@ -303,8 +303,9 @@ However, it is important to note that the variables are only set to readonly whe
 
 Ten points if you got this far, hopefully you found something useful. :-) 
 <br>
+<br>
 
-#### Links
+### Links
 - MITRE ATT&CK: [https://attack.mitre.org/](https://attack.mitre.org/)
 - T1562.003 - Impair Defenses: HISTCONTROL: [https://attack.mitre.org/techniques/T1562/003/](https://attack.mitre.org/techniques/T1562/003/)
 - The official GNU Bash manual: [https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html](https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html)
