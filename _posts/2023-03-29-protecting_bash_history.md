@@ -4,10 +4,10 @@ title: "Protecting Bash History"
 strapline: "MITRE ATT&CK, T1562.003 - Impair Defenses: HISTCONTROL"
 date: 2023-03-29 
 published: true
+permalink: protecting-bash-history
 lastmod: 2023-03-29
 changefreq: monthly
 priority: 0.5
-categories: mitre 
 excerpt_separator: <!--excerpt-->
 ---
 

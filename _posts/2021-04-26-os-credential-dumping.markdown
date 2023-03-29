@@ -4,6 +4,7 @@ title: "OS Credential Dumping "
 strapline: "T1003.008 - MITRE ATT&CK"
 date: 2021-04-26 
 published: true
+permalink: os-credential-dumping
 lastmod: 2021-04-26
 changefreq: monthly
 priority: 0.5

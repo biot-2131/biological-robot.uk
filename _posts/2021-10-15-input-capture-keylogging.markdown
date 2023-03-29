@@ -4,6 +4,7 @@ title: "Input Capture: Keylogging"
 strapline: "T1056.001 - MITRE ATT&CK"
 date: 2021-10-15 
 published: true
+permalink: input-capture-keylogging
 lastmod: 2021-10-15
 changefreq: monthly
 priority: 0.5

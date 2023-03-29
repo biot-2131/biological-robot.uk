@@ -4,6 +4,7 @@ title: "So who have you been talking to?"
 strapline: "Dumping DNS queries to a log file"
 date: 2021-12-01 
 published: true
+permalink: so-who-have-you-been-talking-to
 lastmod: 2021-12-01
 changefreq: monthly
 priority: 0.5

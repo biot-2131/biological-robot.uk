@@ -4,6 +4,7 @@ title: "SSH Certificate Authorities"
 strapline: '"Better" Key Management'
 date: 2021-07-30 
 published: true
+permalink: ssh-certificate-authorities
 lastmod: 2021-07-30
 changefreq: monthly
 priority: 0.5

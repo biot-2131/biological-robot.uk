@@ -4,6 +4,7 @@ title: ".com Doppelgängers"
 strapline: "The prevalence and control of .com look-a-like domain names"
 date: 2021-05-28 
 published: true
+permalink: com-doppelgangers
 lastmod: 2021-05-28
 changefreq: monthly
 priority: 0.5
