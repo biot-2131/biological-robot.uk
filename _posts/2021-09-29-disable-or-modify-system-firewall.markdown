@@ -4,6 +4,7 @@ title: "Disable or Modify System Firewall"
 strapline: "T1562.004 - MITRE ATT&CK"
 date: 2021-09-29 
 published: true
+permalink: disable-or-modify-system-firewall
 lastmod: 2021-09-29
 changefreq: monthly
 priority: 0.5

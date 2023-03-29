@@ -4,6 +4,7 @@ title: "pass Password Manager"
 strapline: "Shared passwords"
 date: 2021-08-16 
 published: true
+permalink: pass-password-manager
 lastmod: 2021-08-16
 changefreq: monthly
 priority: 0.5

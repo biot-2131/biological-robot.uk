@@ -4,6 +4,7 @@ title: "Post Template"
 strapline: "Strapline"
 date: 2017-01-01 
 published: false
+permalink: post-template
 lastmod: 2017-06-01
 changefreq: yearly
 priority: 0.5

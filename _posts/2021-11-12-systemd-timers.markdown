@@ -4,6 +4,7 @@ title: "Systemd timers"
 strapline: "T1053.006 - MITRE ATT&CK"
 date: 2021-11-26 
 published: true
+permalink: systemd-timers
 lastmod: 2021-11-26
 changefreq: monthly
 priority: 0.5
