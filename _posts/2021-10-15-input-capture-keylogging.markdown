@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Input Capture: Keylogging"
-strapline: "T1056.001 - MITRE ATT&CK"
+strapline: "MITRE ATT&CK, T1056.001 - Input Capture: Keylogging"
 date: 2021-10-15 
 published: true
 permalink: input-capture-keylogging

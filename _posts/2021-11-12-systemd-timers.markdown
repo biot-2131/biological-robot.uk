@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Systemd timers"
-strapline: "T1053.006 - MITRE ATT&CK"
+strapline: "MITRE ATT&CK, T1053.006 - Scheduled Task/Job: Systemd Timers"
 date: 2021-11-26 
 published: true
 permalink: systemd-timers
@@ -22,7 +22,7 @@ In this blog post we investigate four different ways that timers can be created 
 
 <br>
 
-#### [From MITE Attack - Scheduled Task/Job: Systemd Timers T1053.006](https://attack.mitre.org/techniques/T1053/006/)
+#### [From MITRE ATT&CK - Scheduled Task/Job: Systemd Timers T1053.006](https://attack.mitre.org/techniques/T1053/006/)
 
 > Adversaries may abuse systemd timers to perform task scheduling for initial or recurring execution of malicious code. Systemd timers are unit files with file extension .timer that control services. Timers can be set to run on a calendar event or after a time span relative to a starting point. They can be used as an alternative to Cron in Linux environments. Systemd timers may be activated remotely via the systemctl command line utility, which operates over SSH.
 

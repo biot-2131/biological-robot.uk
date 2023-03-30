@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Disable or Modify System Firewall"
-strapline: "T1562.004 - MITRE ATT&CK"
+strapline: "MITRE ATT&CK, T1562.004 - Impair Defenses: Disable or Modify System Firewall"
 date: 2021-09-29 
 published: true
 permalink: disable-or-modify-system-firewall
