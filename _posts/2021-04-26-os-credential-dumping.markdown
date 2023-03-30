@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OS Credential Dumping "
-strapline: "T1003.008 - MITRE ATT&CK"
+strapline: "MITRE ATT&CK, T1003.008 - OS Credential Dumping: /etc/passwd and /etc/shadow"
 date: 2021-04-26 
 published: true
 permalink: os-credential-dumping

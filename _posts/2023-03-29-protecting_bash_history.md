@@ -21,7 +21,7 @@ We will provide examples of how adversaries can exploit this technique and also 
 
 ![alt text](/assets/images/t1562.003-prevention.png)
 
-> MITRE ATT&CK, technique T1562.003 - Impair Defenses: HISTCONTROL
+> #### MITRE ATT&CK, technique T1562.003 - Impair Defenses: HISTCONTROL
 >
 >    Adversaries may impair command history logging to hide commands they run on a compromised system. Various command interpreters keep track of the commands users type in their terminal so that users can retrace what they've done.
 > 
