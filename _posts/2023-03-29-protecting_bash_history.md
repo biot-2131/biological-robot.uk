@@ -184,17 +184,26 @@ history
 <br>
 
 ### Auditd logging 
-To detect adversaries from tampering with command history logging, system administrators can implement certain auditd rules on Linux systems. Auditd is a powerful auditing tool that monitors and logs system activity, including user commands.
+To detect adversaries tampering with the command history logging settings, system administrators can implement certain auditd rules. 
 
-#### 1. Export rule
-To detect the execution of the export command, use the following auditd rule:
+#### 1. General rules
+To detect any changes to the files used to create and set system variables, use the following auditd rules:
 ``` bash
-auditctl -a always,exit -F arch=b64 -S execve -F exe=/usr/bin/export -k setenv
+auditctl -a always,exit -F arch=b64 -S execve -F exe=/usr/bin/env -k T1562.003-env
+
+auditctl -w /etc/profile -p wa -k T1562.003-profile
+auditctl -w /etc/profile.d -p wa -k T1562.003-profile.d
+
+auditctl -w /etc/bash.bashrc -p wa -k T1562.003-bash.bashrc 
+
+auditctl -w /etc/environment -p wa -k T1562.003-environment
+
+auditctl -w /etc/sysctl.conf -p wa -k T1562.003-sysctl.conf
 ``` 
-This rule has the following short comings: 
-- I will fire every time the export command is used 
-- It doesn't record which environment variable it was used with 
-- Users can by pass it by not using the export command i.e. HISTIGNORE='*'
+These rules have the following short comings: 
+- The rules are generic and could apply to several ATT&CK techniques at a time
+- They do not record which environment variables where changed or set within the script files 
+- Shell built-in commands such as export, are executed within the context of the same shell process and do not invoke separate system calls, so they are not captured by auditd.
 
 #### 2. bash_history.sh rule
 If you plan to implement the prevention method below. Monitor for changes to the /etc/profile.d/bash_history.sh, with the following auditd rule:
