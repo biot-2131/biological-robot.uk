@@ -2,10 +2,10 @@
 layout: post
 title: ".com Doppelgängers"
 strapline: "The prevalence and control of .com look-a-like domain names"
-date: 2021-05-28 
+date: 2023-01-09 
 published: true
 permalink: com-doppelgangers
-lastmod: 2021-05-28
+lastmod: 2023-01-09
 changefreq: monthly
 priority: 0.5
 categories: research dns

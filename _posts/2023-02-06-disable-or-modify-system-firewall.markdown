@@ -2,10 +2,10 @@
 layout: post
 title: "Disable or Modify System Firewall"
 strapline: "MITRE ATT&CK, T1562.004 - Impair Defenses: Disable or Modify System Firewall"
-date: 2021-09-29 
+date: 2023-02-06 
 published: true
 permalink: disable-or-modify-system-firewall
-lastmod: 2021-09-29
+lastmod: 2023-02-06
 changefreq: monthly
 priority: 0.5
 categories: ATT&CK Atomic ufw auditd

@@ -2,10 +2,10 @@
 layout: post
 title: "SSH Certificate Authorities"
 strapline: '"Better" Key Management'
-date: 2021-07-30 
+date: 2023-01-23 
 published: true
 permalink: ssh-certificate-authorities
-lastmod: 2021-07-30
+lastmod: 2023-01-23
 changefreq: monthly
 priority: 0.5
 categories: research howto ssh

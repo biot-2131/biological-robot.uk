@@ -2,10 +2,10 @@
 layout: post
 title: "pass Password Manager"
 strapline: "Shared passwords"
-date: 2021-08-16 
+date: 2023-01-30 
 published: true
 permalink: pass-password-manager
-lastmod: 2021-08-16
+lastmod: 2023-01-30
 changefreq: monthly
 priority: 0.5
 categories: research howto pass

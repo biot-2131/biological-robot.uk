@@ -2,10 +2,10 @@
 layout: post
 title: "Do you have Squatters?"
 strapline: "Unwanted house guests on the Internet ..."
-date: 2021-06-25 
+date: 2023-01-16 
 published: true
 permalink: do-you-have-squatters
-lastmod: 2021-06-25
+lastmod: 2023-01-16
 changefreq: monthly
 priority: 0.5
 categories: howto dns

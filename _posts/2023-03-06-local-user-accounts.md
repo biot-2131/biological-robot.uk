@@ -2,10 +2,10 @@
 layout: post
 title: "Local User Accounts"
 strapline: "MITRE ATT&CK, T1078.003 - Valid Accounts: Local Accounts"
-date: 2023-02-29 
+date: 2023-03-06 
 published: true
 permalink: local-user-accounts
-lastmod: 2023-02-29
+lastmod: 2023-03-06
 changefreq: monthly
 priority: 0.5
 excerpt_separator: <!--excerpt-->

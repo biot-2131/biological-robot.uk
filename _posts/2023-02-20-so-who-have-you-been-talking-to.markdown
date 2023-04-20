@@ -2,10 +2,10 @@
 layout: post
 title: "So who have you been talking to?"
 strapline: "Dumping DNS queries to a log file"
-date: 2021-12-01 
+date: 2023-02-20 
 published: true
 permalink: so-who-have-you-been-talking-to
-lastmod: 2021-12-01
+lastmod: 2023-02-20
 changefreq: monthly
 priority: 0.5
 categories: tcpdump dns 

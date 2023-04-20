@@ -2,10 +2,10 @@
 layout: post
 title: "Systemd timers"
 strapline: "MITRE ATT&CK, T1053.006 - Scheduled Task/Job: Systemd Timers"
-date: 2021-11-26 
+date: 2023-02-27
 published: true
 permalink: systemd-timers
-lastmod: 2021-11-26
+lastmod: 2023-02-27
 changefreq: monthly
 priority: 0.5
 categories: ATT&CK Atomic systemd auditd
