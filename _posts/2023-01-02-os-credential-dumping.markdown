@@ -2,10 +2,10 @@
 layout: post
 title: "OS Credential Dumping "
 strapline: "MITRE ATT&CK, T1003.008 - OS Credential Dumping: /etc/passwd and /etc/shadow"
-date: 2021-04-26 
+date: 2023-01-02 
 published: true
 permalink: os-credential-dumping
-lastmod: 2021-04-26
+lastmod: 2023-01-02
 changefreq: monthly
 priority: 0.5
 categories: ATT&CK Atomic john auditd

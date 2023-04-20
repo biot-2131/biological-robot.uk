@@ -2,10 +2,10 @@
 layout: post
 title: "Input Capture: Keylogging"
 strapline: "MITRE ATT&CK, T1056.001 - Input Capture: Keylogging"
-date: 2021-10-15 
+date: 2023-02-13 
 published: true
 permalink: input-capture-keylogging
-lastmod: 2021-10-15
+lastmod: 2023-02-13
 changefreq: monthly
 priority: 0.5
 categories: ATT&CK Atomic auditd
